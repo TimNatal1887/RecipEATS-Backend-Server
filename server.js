@@ -1,7 +1,6 @@
 // const cors = require("cors");
 const jsonServer = require("json-server");
 const path = require("path");
-const IP = require("ip");
 
 const app = jsonServer.create();
 const router = jsonServer.router(path.join(__dirname, "data", "db.json"));
@@ -14,8 +13,7 @@ const port = process.env.PORT || 5001;
 // Index route message.
 
 app.get("/", (_req, res) => {
-  const ipAddress = IP.address();
-  res.send(ipAddress);
+  res.send("JSON Starter");
 });
 
 // Generic logging middleware.
