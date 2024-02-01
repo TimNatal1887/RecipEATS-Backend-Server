@@ -1,60 +1,433 @@
 {
-  "users": [
+  "recipes": [
     {
-      "id": 1,
-      "name": {
-        "first": "John",
-        "last": "Doe"
-      },
-      "email": "john.doe@example.com"
+      "id": "XC8E9o",
+      "dishName": "Spaghetti Bolognese",
+      "dishImage": "https://res.cloudinary.com/djg5i10dg/image/upload/v1706735111/spaghetti-bolognese-36_mxjjoq.jpg",
+      "countryOfOrigin": "Italy",
+      "ingredients": [
+        "spaghetti",
+        "ground beef",
+        "tomato sauce",
+        "onions",
+        "garlic",
+        "herbs"
+      ],
+      "calorieAmount": 500,
+      "isVegetarian": false,
+      "isVegan": false,
+      "isGlutenFree": false,
+      "extraInfo": {
+        "prepTime": "30 minutes",
+        "spiceLevel": "Medium",
+        "preparation": "Boil spaghetti. Brown ground beef with onions and garlic. Mix with tomato sauce and herbs. Simmer for 15 minutes."
+      }
     },
     {
-      "id": 2,
-      "name": {
-        "first": "Jane",
-        "last": "Smith"
-      },
-      "email": "jane.smith@example.com"
+      "id": "eyd86dS",
+      "dishName": "Greek Salad",
+      "dishImage": "https://res.cloudinary.com/djg5i10dg/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1706734014/Greek-Salad-Recipe-Easy_sh3dcw.jpg",
+      "countryOfOrigin": "Greece",
+      "ingredients": [
+        "lettuce",
+        "tomatoes",
+        "cucumbers",
+        "feta cheese",
+        "olives",
+        "olive oil"
+      ],
+      "calorieAmount": 300,
+      "isVegetarian": true,
+      "isVegan": true,
+      "isGlutenFree": true,
+      "extraInfo": {
+        "prepTime": "15 minutes",
+        "spiceLevel": "Mild",
+        "preparation": "Chop lettuce, tomatoes, and cucumbers. Crumble feta cheese. Toss with olives and olive oil. Serve chilled."
+      }
     },
     {
-      "id": 3,
-      "name": {
-        "first": "Alice",
-        "last": "Johnson"
-      },
-      "email": "alice.johnson@example.com"
+      "id": "Fwew9dj",
+      "dishName": "Vegetable Stir-Fry",
+      "dishImage": "https://res.cloudinary.com/djg5i10dg/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1706734045/featured-vegetable-stir-fry-recipe_v4blqq.jpg",
+      "countryOfOrigin": "China",
+      "ingredients": [
+        "broccoli",
+        "bell peppers",
+        "carrots",
+        "tofu",
+        "soy sauce",
+        "ginger"
+      ],
+      "calorieAmount": 400,
+      "isVegetarian": true,
+      "isVegan": true,
+      "isGlutenFree": true,
+      "extraInfo": {
+        "prepTime": "20 minutes",
+        "spiceLevel": "Spicy",
+        "preparation": "Stir-fry broccoli, bell peppers, carrots, and tofu in a wok. Add soy sauce and ginger. Cook until vegetables are tender."
+      }
+    },
+    {
+      "id": "0P980Zc",
+      "dishName": "Chicken Alfredo",
+      "dishImage": "https://res.cloudinary.com/dibv9wfg3/image/upload/v1706798068/chickenalfredo_mfiypu.jpg",
+      "countryOfOrigin": "Italy",
+      "ingredients": [
+        "fettuccine pasta",
+        "chicken breast",
+        "heavy cream",
+        "parmesan cheese",
+        "garlic",
+        "butter"
+      ],
+      "calorieAmount": 700,
+      "isVegetarian": false,
+      "isVegan": false,
+      "isGlutenFree": false,
+      "extraInfo": {
+        "prepTime": "40 minutes",
+        "spiceLevel": "Mild",
+        "preparation": "Cook fettuccine pasta. Sauté chicken breast with garlic. Mix with heavy cream, parmesan cheese, and butter. Simmer until creamy."
+      }
+    },
+    {
+      "id": "cN8Gvtq",
+      "dishName": "Sushi Rolls",
+      "dishImage": "https://res.cloudinary.com/djg5i10dg/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1706734189/California-Roll-24_thtard.jpg",
+      "countryOfOrigin": "Japan",
+      "ingredients": [
+        "sushi rice",
+        "seaweed sheets",
+        "fish (salmon, tuna)",
+        "avocado",
+        "cucumber",
+        "soy sauce"
+      ],
+      "calorieAmount": 350,
+      "isVegetarian": false,
+      "isVegan": false,
+      "isGlutenFree": true,
+      "extraInfo": {
+        "prepTime": "25 minutes",
+        "spiceLevel": "None",
+        "preparation": "Prepare sushi rice. Place rice, fish, avocado, and cucumber on seaweed sheets. Roll tightly and slice into pieces. Serve with soy sauce."
+      }
+    },
+    {
+      "id": "4W7fMDb",
+      "dishName": "Vegetarian Chili",
+      "dishImage": "https://res.cloudinary.com/dibv9wfg3/image/upload/v1706798223/211129_DAMN-DELICIOUS_Vegetarian-Chili_279_zn4591.jpg",
+      "countryOfOrigin": "United States",
+      "ingredients": [
+        "kidney beans",
+        "black beans",
+        "tomatoes",
+        "onions",
+        "bell peppers",
+        "chili powder"
+      ],
+      "calorieAmount": 300,
+      "isVegetarian": true,
+      "isVegan": true,
+      "isGlutenFree": true,
+      "extraInfo": {
+        "prepTime": "35 minutes",
+        "spiceLevel": "Spicy",
+        "preparation": "Sauté onions and bell peppers. Add tomatoes, kidney beans, black beans, and chili powder. Simmer until flavors meld. Serve hot."
+      }
+    },
+    {
+      "id": "Rusppgh",
+      "dishName": "Ackee and Saltfish",
+      "dishImage": "https://res.cloudinary.com/dgifdj6nx/image/upload/v1706732940/recipEATS-Ackee_and_Saltfish_kfihnq.jpg",
+      "countryOfOrigin": "Jamaica",
+      "ingredients": [
+        "ackee",
+        "saltfish",
+        "onion",
+        "scallion",
+        "tomato",
+        "pepper"
+      ],
+      "calorieAmount": 400,
+      "isVegetarian": false,
+      "isVegan": false,
+      "isGlutenFree": true,
+      "extraInfo": {
+        "prepTime": "30 minutes",
+        "spiceLevel": "Medium",
+        "preparation": "Soak saltfish. Boil ackee. Sauté onion, scallion, and tomato. Add saltfish and ackee. Cook until flavors fi taste irie mon, cha.."
+      }
+    },
+    {
+      "id": "0_nJHxP",
+      "dishName": "Roti with Curry Chicken",
+      "dishImage": "https://res.cloudinary.com/dgifdj6nx/image/upload/v1706733350/recipEATS-curry_chicken_roti_yx3qvm.webp",
+      "countryOfOrigin": "Trinidad and Tobago",
+      "ingredients": [
+        "chicken thighs",
+        "curry powder",
+        "potatoes",
+        "carrots",
+        "onion",
+        "garlic",
+        "roti"
+      ],
+      "calorieAmount": 600,
+      "isVegetarian": false,
+      "isVegan": false,
+      "isGlutenFree": false,
+      "extraInfo": {
+        "prepTime": "1 hour",
+        "spiceLevel": "Spicy",
+        "preparation": "Season chicken with Chiefs brand dark curry eh. Sauté onion, garlic, and veggies. Add chicken, make sure it season lil' bit and marinated eh. Simmer until cooked. Serve with warm roti skins, available at most Trini spots!"
+      }
+    },
+    {
+      "id": "GA1ala8",
+      "dishName": "Callaloo with Rice and Peas",
+      "dishImage": "https://res.cloudinary.com/dgifdj6nx/image/upload/v1706733654/recipEATS-callaloo_with_rice_and_peas_qewntk.jpg",
+      "countryOfOrigin": "Grenada",
+      "ingredients": [
+        "callaloo",
+        "coconut milk",
+        "rice",
+        "kidney beans",
+        "thyme",
+        "scallion",
+        "onion"
+      ],
+      "calorieAmount": 350,
+      "isVegetarian": true,
+      "isVegan": true,
+      "isGlutenFree": true,
+      "extraInfo": {
+        "prepTime": "45 minutes",
+        "spiceLevel": "Mild",
+        "preparation": "Cook up the rice good with coconut milk and kidney beans, right. Sauté callaloo (from can or boil dem callaloo leaves good!), thyme, scallion, and onion. Serve over di rice nuh man."
+      }
+    },
+    {
+      "id": "8Womm30",
+      "dishName": "Flourless Chocolate Cake",
+      "dishImage": "https://res.cloudinary.com/dgifdj6nx/image/upload/v1706731821/recipEATS-flourless-chocolate-cake_n4oswj.jpg",
+      "countryOfOrigin": "Various",
+      "ingredients": [
+        "dark chocolate",
+        "butter",
+        "sugar",
+        "eggs",
+        "cocoa powder",
+        "vanilla extract"
+      ],
+      "calorieAmount": 450,
+      "isVegetarian": true,
+      "isVegan": false,
+      "isGlutenFree": true,
+      "extraInfo": {
+        "prepTime": "45 minutes",
+        "spiceLevel": "N/A",
+        "preparation": "Melt chocolate and butter. Beat sugar, eggs, and vanilla. Mix with chocolate. Bake until set. Dust with cocoa powder."
+      }
+    },
+    {
+      "id": "vvBdFUW",
+      "dishName": "Coconut Macaroons",
+      "dishImage": "https://res.cloudinary.com/dgifdj6nx/image/upload/v1706732272/recipEATS-Coconut_Macaroons_nmqr4m.webp",
+      "countryOfOrigin": "Various",
+      "ingredients": [
+        "shredded coconut",
+        "sweetened condensed milk",
+        "vanilla extract",
+        "egg whites",
+        "salt"
+      ],
+      "calorieAmount": 150,
+      "isVegetarian": true,
+      "isVegan": false,
+      "isGlutenFree": true,
+      "extraInfo": {
+        "prepTime": "30 minutes",
+        "spiceLevel": "N/A",
+        "preparation": "Mix shredded coconut, sweetened condensed milk, vanilla. Beat egg whites with salt. Combine. Bake until golden."
+      }
+    },
+    {
+      "id": "mSFMrmn",
+      "dishName": "Chia Seed Pudding",
+      "dishImage": "https://res.cloudinary.com/dgifdj6nx/image/upload/v1706731579/recipEATS-chia_seed-pudding_ldgwr1.jpg",
+      "countryOfOrigin": "Various",
+      "ingredients": [
+        "chia seeds",
+        "almond milk",
+        "maple syrup",
+        "vanilla extract",
+        "fresh fruit"
+      ],
+      "calorieAmount": 250,
+      "isVegetarian": true,
+      "isVegan": true,
+      "isGlutenFree": true,
+      "extraInfo": {
+        "prepTime": "4 hours (chilling time)",
+        "spiceLevel": "N/A",
+        "preparation": "Mix chia seeds, almond milk, maple syrup, and vanilla. Refrigerate. Top with fresh fruit before serving."
+      }
+    },
+    {
+      "id": "7ewe8SW",
+      "dishName": "Pelau",
+      "dishImage": "https://res.cloudinary.com/dgifdj6nx/image/upload/v1706732605/recipEATS-pelau_w3hfxc.jpg",
+      "countryOfOrigin": "Trinidad and Tobago",
+      "ingredients": [
+        "chicken pieces",
+        "rice",
+        "pigeon peas",
+        "coconut milk",
+        "carrots",
+        "pumpkin",
+        "bell pepper",
+        "onion",
+        "garlic",
+        "brown sugar",
+        "thyme",
+        "pimento peppers",
+        "chadon beni",
+        "green seasoning"
+      ],
+      "calorieAmount": 500,
+      "isVegetarian": false,
+      "isVegan": false,
+      "isGlutenFree": true,
+      "extraInfo": {
+        "prepTime": "1.5 hours",
+        "spiceLevel": "Medium",
+        "preparation": "Season chicken with green seasoning, Matouk's have a good one eh. Sauté chicken until browned. Add rice, pigeon peas, coconut milk, veggies, and spices. Simmer until rice is cooked."
+      }
+    },
+    {
+      "id": "2GnBn0h",
+      "dishName": "Paella",
+      "dishImage": "https://res.cloudinary.com/djg5i10dg/image/upload/v1706735434/Mixed-Paella-Recipe-1_jevutr.jpg",
+      "countryOfOrigin": "Spain",
+      "ingredients": [
+        "short-grain rice",
+        "chicken",
+        "rabbit",
+        "bell peppers",
+        "tomatoes",
+        "saffron",
+        "paprika",
+        "olive oil"
+      ],
+      "calorieAmount": 600,
+      "isVegetarian": false,
+      "isVegan": false,
+      "isGlutenFree": true,
+      "extraInfo": {
+        "prepTime": "1.5 hours",
+        "spiceLevel": "Medium",
+        "preparation": "Sauté chicken and rabbit in olive oil. Add rice, bell peppers, tomatoes, saffron, and paprika. Simmer until rice is cooked. Serve hot."
+      }
+    },
+    {
+      "id": "czsdmLj",
+      "dishName": "Tom Yum Soup",
+      "dishImage": "https://res.cloudinary.com/djg5i10dg/image/upload/v1706735401/Tom-Yum-Soup_qnljv4.jpg",
+      "countryOfOrigin": "Thailand",
+      "ingredients": [
+        "shrimp",
+        "lemongrass",
+        "kaffir lime leaves",
+        "galangal",
+        "chilies",
+        "mushrooms",
+        "fish sauce",
+        "lime juice"
+      ],
+      "calorieAmount": 250,
+      "isVegetarian": false,
+      "isVegan": false,
+      "isGlutenFree": true,
+      "extraInfo": {
+        "prepTime": "30 minutes",
+        "spiceLevel": "Spicy",
+        "preparation": "Bring lemongrass, kaffir lime leaves, and galangal to a boil. Add shrimp, chilies, mushrooms, fish sauce, and lime juice. Simmer until shrimp is cooked. Serve hot."
+      }
     }
   ],
-  "tweets": [
+  "reviews": [
     {
-      "id": 101,
-      "userId": 1,
-      "message": "Had a great day at the beach!"
+      "name": "John Smith",
+      "comment": "Absolutely loved the Spaghetti Bolognese!",
+      "rating": 5,
+      "dishId": "XC8E9o",
+      "id": "pL76Ze"
     },
     {
-      "id": 102,
-      "userId": 2,
-      "message": "Just read an amazing book!"
+      "name": "Emily Johnson",
+      "comment": "The Greek Salad was refreshing and tasty.",
+      "rating": 4,
+      "dishId": "eyd86dS",
+      "id": "P6yA3_b"
     },
     {
-      "id": 103,
-      "userId": 3,
-      "message": "Loving the new coffee shop in town."
+      "name": "Marlon Regis",
+      "comment": "Reminds me of carnival and those unique flavors of Trinidad.",
+      "rating": 4.5,
+      "dishID": "7ewe8SW",
+      "id": "vw6GR2V"
     },
     {
-      "id": 104,
-      "userId": 1,
-      "message": "Can't wait for the weekend."
+      "name": "Tim Natal",
+      "comment": "Isn't this Jamaica's national dish? Wow, I loved making this!",
+      "rating": 5,
+      "dishID": "Rusppgh",
+      "id": "pxGyCqP"
     },
     {
-      "id": 105,
-      "userId": 2,
-      "message": "Thinking about starting a blog."
+      "name": "Lenny Lopez",
+      "comment": "Simple delightful. I loved the coconut flavor esp for gluten-free!",
+      "rating": 4.5,
+      "dishID": "vvBdFUW",
+      "id": "vJXB2WL"
     },
     {
-      "id": 106,
-      "userId": 3,
-      "message": "Happy Monday everyone!"
+      "name": "Haiyah Perez",
+      "comment": "A chocolate lover's dream! Wait, is this gluten-free n' so good?",
+      "rating": 5,
+      "dishID": "8Womm30",
+      "id": "FwzBTf3"
+    },
+    {
+      "name": "Amanda Thompson",
+      "comment": "Chicken Alfredo was creamy and delicious!",
+      "rating": 4,
+      "dishId": "0P980Zc",
+      "id": "VkLzJrZ"
+    },
+    {
+      "name": "Chris Mitchell",
+      "comment": "Sushi Rolls were a delight to the senses!",
+      "rating": 5,
+      "dishId": "cN8Gvtq",
+      "id": "e4WisIF"
+    },
+    {
+      "name": "Eva Brown",
+      "comment": "Vegetarian Chili was perfect for a cozy night!",
+      "rating": 4,
+      "dishId": "4W7fMDb",
+      "id": "FMqg1iR"
+    },
+    {
+      "name": "Daniel Lee",
+      "comment": "Pelau had a burst of Caribbean flavors!",
+      "rating": 5,
+      "dishId": "7ewe8SW",
+      "id": "Mkr3785"
     }
   ]
 }
